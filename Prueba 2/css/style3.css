@@ -1,0 +1,47 @@
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1, h2, p {
+  color: #333;
+}
+
+/* Estilos del encabezado y pie de página */
+header, footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+footer {
+  font-size: 12px;
+}
+
+/* Estilos específicos para aplicacion_exitosa.php */
+main.container {
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}

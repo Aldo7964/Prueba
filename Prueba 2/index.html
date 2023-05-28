@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+  <title>Bolsa de Trabajo</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+
+
+</head>
+<body>
+  <h1>Bolsa de Trabajo</h1>
+
+  <form action="registrar_trabajo.php" method="POST">
+    <label for="titulo">Título del trabajo:</label>
+    <input type="text" id="titulo" name="titulo" required>
+
+    <label for="descripcion">Descripción:</label>
+    <textarea id="descripcion" name="descripcion" required></textarea>
+
+    <label for="empresa">Empresa:</label>
+    <input type="text" id="empresa" name="empresa" required>
+
+    <input type="submit" value="Publicar trabajo">
+  </form>
+  <a href="ver_trabajos.php">Ver Trabajos Registrados</a>
+
+</body>
+</html>
